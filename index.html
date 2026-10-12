@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Discover freshly brewed coffee, delicious pastries, and a welcoming atmosphere at Café Haven.">
+  <meta name="theme-color" content="#f7f3ea">
+
+  <title>Café Haven | Coffee, Comfort & Community</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- Announcement -->
+  <div class="announcement">
+    <p>Freshly brewed, thoughtfully made. Welcome to Café Haven.</p>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <a class="brand" href="#home" aria-label="Café Haven home">
+        <span class="brand-icon">C</span>
+        <span class="brand-text">
+          <strong class="business-name">Café Haven</strong>
+          <small>COFFEE · COMFORT · COMMUNITY</small>
+        </span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-navigation" id="main-navigation">
+        <a href="#home">Home</a>
+        <a href="#story">Our Story</a>
+        <a href="#menu">Menu</a>
+        <a href="#visit">Visit Us</a>
+        <a href="#contact" class="nav-cta">Contact Us</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+
+        <div class="hero-content">
+          <p class="eyebrow">YOUR NEIGHBORHOOD COFFEE HOUSE</p>
+
+          <h1>
+            A little moment
+            <span>of happiness.</span>
+          </h1>
+
+          <p class="hero-description">
+            Great coffee, homemade treats, and a cozy corner
+            to slow down. Your favorite part of the day starts here.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#menu" class="button button-primary">
+              Explore Our Menu
+            </a>
+
+            <a href="#story" class="button button-secondary">
+              Our Story
+            </a>
+          </div>
+
+          <div class="hero-note">
+            <span class="hero-note-icon">✳</span>
+            <p>Made with care. Served with warmth.</p>
+          </div>
+        </div>
+
+        <div class="hero-image-wrap">
+          <img
+            class="hero-image"
+            src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1100&q=85"
+            alt="Warm and welcoming café interior"
+          >
+
+          <div class="hero-image-card">
+            <span class="card-star">✦</span>
+            <div>
+              <strong>Your daily ritual</strong>
+              <p>Good coffee. Good company.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Highlights -->
+    <section class="highlights">
+      <div class="container highlights-grid">
+
+        <div class="highlight-item">
+          <span class="highlight-icon">☕</span>
+          <div>
+            <h3>Freshly Brewed</h3>
+            <p>Every cup made with care</p>
+          </div>
+        </div>
+
+        <div class="highlight-item">
+          <span class="highlight-icon">✿</span>
+          <div>
+            <h3>Made with Love</h3>
+            <p>Delicious bites every day</p>
+          </div>
+        </div>
+
+        <div class="highlight-item">
+          <span class="highlight-icon">♡</span>
+          <div>
+            <h3>A Cozy Space</h3>
+            <p>Your home away from home</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Story -->
+    <section class="story section-padding" id="story">
+      <div class="container story-grid">
+
+        <div class="story-image-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1000&q=85"
+            alt="Coffee being prepared at a café"
+            loading="lazy"
+          >
+
+          <div class="story-badge">
+            <span>GOOD</span>
+            <strong>things</strong>
+            <span>TAKE TIME</span>
+          </div>
+        </div>
+
+        <div class="story-content">
+          <p class="eyebrow">A LITTLE ABOUT US</p>
+
+          <h2>
+            More than coffee.
+            <span>A feeling.</span>
+          </h2>
+
+          <p>
+            <span class="business-name">Café Haven</span> was created
+            around a simple idea: life feels better when we take a
+            moment to enjoy it.
+          </p>
+
+          <p>
+            From the first morning coffee to a relaxed afternoon
+            with friends, we believe the smallest moments can
+            become the most memorable ones.
+          </p>
+
+          <p>
+            Stop by, find your favorite seat, and make yourself
+            at home.
+          </p>
+
+          <a href="#visit" class="text-link">
+            Come say hello <span>→</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Menu -->
+    <section class="menu-section section-padding" id="menu">
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="eyebrow">SOMETHING DELICIOUS AWAITS</p>
+          <h2>Made for your <span>happy place.</span></h2>
+          <p>
+            From your morning pick-me-up to your afternoon treat,
+            there's something for every kind of craving.
+          </p>
+        </div>
+
+        <!-- JavaScript inserts menu filters here -->
+        <div
+          class="menu-filters"
+          id="menu-filters"
+          aria-label="Filter menu products"
+        ></div>
+
+        <!-- JavaScript inserts menu products here -->
+        <div class="menu-grid" id="menu-grid">
+          <p class="menu-loading">Preparing our menu...</p>
+        </div>
+
+        <div class="menu-bottom">
+          <p>Have a question about our menu?</p>
+          <a
+            href="#contact"
+            class="text-link"
+          >
+            Get in touch <span>→</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Visit banner -->
+    <section class="visit-banner" id="visit">
+      <div class="container visit-banner-inner">
+
+        <div>
+          <p class="eyebrow">YOUR TABLE IS WAITING</p>
+          <h2>Come for the coffee.<br>Stay for the feeling.</h2>
+          <p>
+            Good things are always brewing at
+            <span class="business-name">Café Haven</span>.
+          </p>
+        </div>
+
+        <a
+          href="#contact"
+          class="button button-light"
+        >
+          Plan Your Visit
+        </a>
+
+      </div>
+    </section>
+
+    <!-- Contact and hours -->
+    <section class="contact-section section-padding" id="contact">
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="eyebrow">WE'D LOVE TO SEE YOU</p>
+          <h2>Find your way to <span>us.</span></h2>
+          <p>
+            Drop by for your favorite coffee or get in touch
+            with any questions.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+
+          <!-- Address -->
+          <article class="contact-card">
+            <div class="contact-icon">⌖</div>
+            <h3>Find Us</h3>
+
+            <p id="cafe-address">
+              Your Street, Your City
+            </p>
+
+            <a
+              class="text-link"
+              id="directions-link"
+              href="https://maps.google.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Get directions <span>→</span>
+            </a>
+          </article>
+
+          <!-- Contact details -->
+          <article class="contact-card">
+            <div class="contact-icon">♡</div>
+            <h3>Say Hello</h3>
+
+            <p>
+              <a id="cafe-phone" href="tel:+94770000000">
+                +94 77 000 0000
+              </a>
+            </p>
+
+            <p>
+              <a
+                id="cafe-email"
+                href="mailto:hello@cafehaven.com"
+              >
+                hello@cafehaven.com
+              </a>
+            </p>
+
+            <a
+              class="text-link"
+              id="whatsapp-order"
+              href="https://wa.me/94770000000"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Message us <span>→</span>
+            </a>
+          </article>
+
+          <!-- Opening hours -->
+          <article class="contact-card hours-card">
+            <div class="contact-icon">◷</div>
+            <h3>Opening Hours</h3>
+
+            <div class="hours-list">
+              <div>
+                <span>Monday – Friday</span>
+                <span id="weekday-hours">7:00 AM – 9:00 PM</span>
+              </div>
+
+              <div>
+                <span>Saturday</span>
+                <span id="saturday-hours">7:00 AM – 10:00 PM</span>
+              </div>
+
+              <div>
+                <span>Sunday</span>
+                <span id="sunday-hours">8:00 AM – 8:00 PM</span>
+              </div>
+            </div>
+
+            <p class="opening-status" id="opening-status">
+              Check with us before visiting.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-main">
+
+      <div class="footer-brand">
+        <a class="brand footer-brand-link" href="#home">
+          <span class="brand-icon">C</span>
+
+          <span class="brand-text">
+            <strong class="business-name">Café Haven</strong>
+            <small>COFFEE · COMFORT · COMMUNITY</small>
+          </span>
+        </a>
+
+        <p>
+          A little warmth, one cup at a time.
+          Made for the moments that matter.
+        </p>
+      </div>
+
+      <div class="footer-column">
+        <h3>Explore</h3>
+        <a href="#home">Home</a>
+        <a href="#story">Our Story</a>
+        <a href="#menu">Our Menu</a>
+        <a href="#visit">Visit Us</a>
+      </div>
+
+      <div class="footer-column">
+        <h3>Contact</h3>
+
+        <a
+          id="footer-phone"
+          href="tel:+94770000000"
+        >
+          +94 77 000 0000
+        </a>
+
+        <a
+          id="footer-email"
+          href="mailto:hello@cafehaven.com"
+        >
+          hello@cafehaven.com
+        </a>
+
+        <a href="#contact">Opening Hours</a>
+      </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+      <p>
+        © <span id="current-year">2026</span>
+        <span class="business-name">Café Haven</span>.
+        All rights reserved.
+      </p>
+
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+</body>
+</html>
